@@ -1,0 +1,19 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "arya-portfolio",
+  "account_id": "384159860c5f9f4eefde1caa46e84d29",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    {
+      "pattern": "aryabuilds.online/*",
+      "zone_name": "aryabuilds.online"
+    },
+    {
+      "pattern": "www.aryabuilds.online/*",
+      "zone_name": "aryabuilds.online"
+    }
+  ]
+}
